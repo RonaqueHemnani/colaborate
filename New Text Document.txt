@@ -1,0 +1,43 @@
+// Check login
+git config --global user.name
+
+git config --global user.email
+
+// Logout github
+git config --global --unset user.name
+
+git config --global --unset user.email
+
+// Login github
+git config --global user.name "username"
+
+git config --global user.email "useremail"
+
+// New reposite create
+git init
+
+git add .
+
+git commit -m "message"
+
+git branch -M main
+
+git remote add origin https://github.com/ronaquekumar/facebook
+
+git push -u origin main
+
+// update reposite
+git add .
+
+git commit -m "message"
+
+git push
+
+// git clone
+git pull
+
+// Check branch
+git branch -a
+
+// which branch change
+git checkout xyz
