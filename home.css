@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    color: blueviolet;
+    padding: 5px 10px 5px 10px;
+}
+.para{
+    background-color: cadetblue;
+    padding: 5px 10px 5px 10px;
+    color: brown;
+}
+.btn{
+    background: linear-gradient(blueviolet,blue);
+    margin: 5px 10px 5px 10px;
+}
